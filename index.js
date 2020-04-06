@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
     res.status(200).send({ message: 'Olá mundo esse é meu novo repositório clonado!'});
 })
 
-app.get('/olá', (req, res) => {
+app.get('/Rotaolá', (req, res) => {
     res.status(200).send({ message: 'Olá, usando GitHub Desktop!'});
 })
 
