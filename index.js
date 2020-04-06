@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/olá', (req, res) => {
-    res.status(200).send({ message: 'Olá!'});
+    res.status(200).send({ message: 'Olá, usando GitHub Desktop!'});
 })
 
 app.listen(4001, () => {
